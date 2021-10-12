@@ -1,6 +1,0 @@
-[submodule "frontend"]
-	path = frontend
-	url = git@github.com:frasql/microservices.git
-[submodule "microservices"]
-	path = microservices
-	url = https://github.com/frasql/microservices.git
