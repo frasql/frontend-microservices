@@ -31,7 +31,7 @@ const CommentCreate = ({postId}) => {
     const onSubmit = (e) => {
         e.preventDefault();
         console.log(content)
-        FetchComment(`http://posts.com:2000/posts/${postId}/comments`, {
+        FetchComment(`http://posts.com/posts/${postId}/comments`, {
             content
         }).then(resp => {console.log(resp)})
     }

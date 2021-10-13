@@ -15,7 +15,7 @@ const PostList = () => {
             mode: "cors",
         }
 
-        const req = new Request("http://posts.com:4002/posts", options);
+        const req = new Request("http://posts.com/posts/", options);
 
         const resp = await fetch(req);
 

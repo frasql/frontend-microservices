@@ -31,7 +31,7 @@ const PostCreate = () => {
 
     const onSubmit = (event) => {
         event.preventDefault();
-        FetchPost("http://posts.com:4000/posts/create/", {title})
+        FetchPost("http://posts.com/posts/create/", {title})
         .then(resp => {console.log(resp)})
     }
 
